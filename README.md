@@ -213,5 +213,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-This README provides a detailed overview of the project, including installation instructions, project structure, API endpoints, and other necessary details to help users understand and use the project.
