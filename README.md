@@ -2,6 +2,28 @@
 
 This is a FastAPI project that includes user authentication (sign-up, log-in, and fetching user details) with JWT-based authentication and MongoDB as the database. This project follows best practices in folder structure and code organization.
 
+## Why This Structure is Best Practice
+
+### Separation of Concerns
+
+Each component (models, schemas, services, endpoints) is separated, making the codebase more maintainable and understandable. This modular approach ensures that changes in one part of the application do not affect others, reducing the risk of introducing bugs.
+
+### Scalability
+
+The directory structure supports scaling by organizing the code into distinct functional areas. As the application grows, new features and modules can be added without cluttering the existing codebase.
+
+### Versioning
+
+API versioning is incorporated, allowing for future expansions and backward compatibility. This is essential for maintaining and updating APIs without disrupting existing clients.
+
+### Security
+
+Security configurations and mechanisms (like JWT handling) are isolated in a dedicated module. This makes it easier to manage and update security policies without affecting other parts of the application.
+
+### Configuration Management
+
+Centralized configuration settings using environment variables for better manageability. This allows for easy changes in configuration without modifying the codebase, supporting different environments like development, testing, and production.
+
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Installation](#installation)
